@@ -13,7 +13,7 @@ def regionals_1992_1993_class_9_task_1():
     pass
 
 
-def regionals_1992_1993_class_11_task_8():
+def regionals_1992_1993_class_11_task_24():
     '''
     given: in a country 1993 cities, each city has 93+ roads to other cities. each city is reachable from any city.
     prove: you can reach any city within 62 roads.
@@ -28,3 +28,13 @@ def regionals_1992_1993_class_11_task_8():
     , therefore, there are at least (66/3)*94 = 2068 cities that contradicts the given number of cities.
     '''
     pass
+
+
+def regionals_1993_1994_class_9_task_27():
+    '''
+    question: is there any quadratic trinomial P(x) with whole coefficients so that
+    for any n that consists only of ones, P(n) will also consist only of ones?
+
+    solution: yes, P(x) = x*(9x+2)
+    if n = 1....1, then 9n+2 = 100...001, therefore P(n) = 1...1
+    '''
