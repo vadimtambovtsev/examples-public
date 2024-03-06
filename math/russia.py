@@ -16,13 +16,12 @@ def regionals_1992_1993_class_9_task_1():
 def regionals_1992_1993_class_11_task_24():
     '''
     given: in a country 1993 cities, each city has 93+ roads to other cities. each city is reachable from any city.
-    prove: you can reach any city within 62 roads.
+    prove: you can reach any city within 62 transfers.
 
     solution:
-    let's prove by counterargument. assume there exists a city with 63+ roads to get to.
+    let's prove by counterargument. assume there exists a city with 63+ transfers to get to.
     let's divide the cities into groups, group1 is the departure city, group2 is his connections, etc,
     there will be minimum 1 + 63 + 1 = 65 groups.
-    in every group there is at least 93+1 = 94 cities.
     in every three nearby groups, there is 94+ cities
     we round 65 groups up to a number that is divisible by 3, i.e to 66.
     , therefore, there are at least (66/3)*94 = 2068 cities that contradicts the given number of cities.
