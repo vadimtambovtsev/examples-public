@@ -37,3 +37,20 @@ def regionals_1993_1994_class_9_task_27():
     solution: yes, P(x) = x*(9x+2)
     if n = 1....1, then 9n+2 = 100...001, therefore P(n) = 1...1
     '''
+    pass
+
+def regionals_1994_1995_class_10_task_57():
+    '''
+    given: f(x) = 1/(1-x^3)^(1/3)
+    find: f(f(...95times..(f(19))))
+
+    solution:
+
+    if x is not 0 or 1, then
+    f(f(x)) = 1/(1-(f(x))^3)^(1/3) = (1-1/x^3)^(1/3)
+    f(f(f(x))) = x
+
+    the functions will repeat with cycle 3, therefore 95 mod 3 = 2,
+    therefore f(f(...95times..(f(19)))) = f(f(19)) = (1-1/19^3)^(1/3)
+    '''
+    pass
